@@ -1,0 +1,100 @@
+<!-- form -->
+<!-- 
+elemen elemen form :
+- input : text field
+- textarea : mengisikan komentar lebih banyak
+- select : membuat dropdown/combobox/checkbox
+- button : tombol untuk mengirimkan data
+- label : untuk menandai sebuah elemen input -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form html</title>
+</head>
+<body>
+
+<form action="">
+    <label for="username">username : </label>    
+    <input type="text" id="username">
+
+    <br>
+
+    <label for="password">password :</label>
+    <input type="password" id="password">
+
+    <br>
+
+    <input type="radio" id="prima" name="jeniskelamin"> <label for="pria">pria</label>
+    <input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">wanita</label>
+
+    <br>
+
+    <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+    <input type="checkbox" id="olaraga"><label for="olaraga">olaraga</label>
+    <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+
+    <br>
+
+    <label for="textarea">texarea :</label>
+    <textarea name="" id=""></textarea>
+
+    <br>
+
+    <select>
+            <option>bandung</option>
+            <option>jakarta</option>
+            <option>palembang</option>
+    </select>
+
+    <button type="submit">Kirim!</button>
+</form>
+
+<br><br><br><br><br>
+
+<table border="1" cellspacing="0" cellpadding="5" >
+    <tr>
+        <td> <label for="username">username : </label></td>
+        <td><input type="text" id="username"></td>
+    </tr>
+    <tr>
+        <td><label for="password">password :</label></td>
+        <td><input type="password" id="password"></td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <input type="radio" id="prima" name="jeniskelamin"> <label for="pria">pria</label>
+            <input type="radio" id="wanita" name="jeniskelamin"> <label for="wanita">wanita</label>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">     
+            <input type="checkbox" id="menyanyi"><label for="menyanyi">menyanyi</label>
+            <input type="checkbox" id="olaraga"><label for="olaraga">olaraga</label>
+            <input type="checkbox" id="ngoding"><label for="ngoding">ngoding</label>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="textarea">texarea :</label>
+        </td>
+        <td>
+            <textarea name="" id=""></textarea>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <select>
+                <option>bandung</option>
+                <option>jakarta</option>
+                <option>palembang</option>
+            </select>
+            <button type="submit">Kirim!</button>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>

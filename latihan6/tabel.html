@@ -1,0 +1,72 @@
+<!-- untuk menggunakan tabel maka menggunakan tag <table></table> -->
+<!-- 
+tag table :
+tr = untuk baris
+td = untuk kolom
+
+atribut pada table :
+1. digunakan untuk css 
+- border = menambahkan garis sekitar sell
+- cellspacing = menambahkan jarak antar sell
+- cellpadding = memberi luas pada sebuah sell
+2. colspan = menggabungkan 2 atau sell yang horizontal 
+3. rowspan = menggabungkan 2 atau lebih sell untuk yang vertikal
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table html</title>
+</head>
+<body>
+
+
+    <!-- table yang simple -->
+    <table border="1" cellspacing="0" cellpadding="10">
+        <tr>
+            <td>baris 1, kolom 1</td>
+            <td>baris 1, kolom 2</td>
+        </tr>
+        <tr>
+              <td>baris 2, kolom 1</td>
+              <td>baris 2, kolom 2</td>
+        </tr>
+    </table>
+
+    <br><br><br><br><br>
+
+
+    <!-- table yang komplek dengan 2 header -->
+    <!-- 
+    thead = digunakan untuk header/ judul / entitas 
+    tbodt = digunakan untuk atributnya
+    th = judul (header)
+    td = isi
+    -->
+
+    <table>
+        <thead>
+           <tr>
+                <th></th>
+                <th>kolom 1</th>
+                <th>kolom 2</th>
+           </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>baris 1</th>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <th>baris 2</th>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>

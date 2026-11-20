@@ -1,0 +1,33 @@
+<!-- 
+ hyperlink = <a></a> atau disebut dengan anchor atau ibarat sebuah jangkar yang terhubung dengan kapal
+ hyperlink digunakan untuk menghubungan sebuah sumber -->
+<!-- atributnya href="" 
+ bisa di isi dengan eksternal url contoh halaman web lain, bisa juga dengan internal url yaitu file yg ada pada folder kita, ada juga relative url yaitu menghubungkan file di folder yg berbeda contoh href="admin/halaman1"
+ kalau filenya berada di satu folder diatasnya maka tulis href="../halaman1"-->
+
+<!-- atribut atribut hyperlink -->
+ <!-- 
+1. _self = membuka link dihalaman yang sama 
+2. _blank = membuka tab baru 
+3. _parent
+4. _top
+
+contoh penggunaaannya : <a target="_blank"></a> -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hyperlink</title>
+ </head>
+ <body>
+    <p>Klik <a target="_blank" href="http://.google.com">Disini</a> untuk mengetahui informasi lebih lanjut</p>
+
+    <!-- untuk menghungkan ke file di folder lain -->
+    <a href="user/halaman2.html">Buka disini</a>
+
+    <!-- jika foldernya berada 1 tingkat diatasnya gunakan -->
+    <a target="_self" href="../latihan1/day 1 - struktur.html">Contohnya begini</a>
+ </body>
+ </html>
